@@ -1,0 +1,26 @@
+.gradient {
+	background-image:
+    	radial-gradient(
+      	#1589FF, 
+      	#F62817
+    );
+	width: 100%;
+	height: 100%;
+	float: left;
+	position: absolute;
+	display: block;
+	vertical-align: top;
+}
+
+@font-face{
+	font-family: ifc_los_banditos; src: url(./public/css/losbanditos.ttf);
+}
+h1{
+	font-family: ifc_los_banditos;
+	color: #F5FFEA;
+	text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+	font-size: 70px;
+	text-align: center;
+	background-color: rgba(255,255,255,.2);
+	letter-spacing: 2px;
+}
