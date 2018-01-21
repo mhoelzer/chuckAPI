@@ -120,6 +120,7 @@ footer ul li{
 	display: inline-block;
 	padding: 0 0.7em 0 0;
 	margin: 0;
+	color: #F5FFEA;
 }
 
 footer ul li:before{
@@ -128,12 +129,12 @@ footer ul li:before{
 }
 
 footer a, footer a:visited{
-	color: #F5FFEA;
+	color: rgb(252, 249, 217);
 	text-decoration: none;
 }
 
 footer a:hover{
-	color: #F5FFEA;
+	color: white;
 	text-decoration: underline;
 	background-color: #1589FF;
 }
