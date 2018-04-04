@@ -11,5 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhoelzer/chuckAPI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhoelzer/chuckAPI/issues"
+  },
+  "homepage": "https://github.com/mhoelzer/chuckAPI#readme"
 }

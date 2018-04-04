@@ -6,7 +6,7 @@ div.music{
 .background-gradient-and-image {
 	z-index: 1;
 	background: @fallback;
-	background: url(./img/cnsmall2.gif) @background-position-x @background-position-y repeat;
+	/* background: url(./img/cnsmall2.gif) @background-position-x @background-position-y repeat; */
 	background: url(./img/cnsmall2.gif) top center repeat, -webkit-radial-gradient(top, #1589FF, #F62817);
 	width: 100%;
 	min-width: 1000px;
