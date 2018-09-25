@@ -18,7 +18,7 @@ $(document).ready(function(){
 	//This first get request gets one rando joke when the page first loads
 	$.ajax({
 		type:'GET',
-		url:'https://api.chucknorris.io/jokes/random',
+		url:'http://api.icndb.com/jokes/random',
 		// use .done and .fail
 		})
 		.done(function(joke){
@@ -36,7 +36,7 @@ $(document).ready(function(){
 		// };
 		$.ajax({
 			type: 'GET',
-			url: 'https://api.chucknorris.io/jokes/random'
+			url: 'http://api.icndb.com/jokes/random'
 		})
 			.done(function(newJoke){
 				addNewJoke(newJoke);
