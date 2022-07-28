@@ -1,22 +1,17 @@
-/*get a chuck norris song to play in background*/
-div.music{
+html {
 	z-index: 0;
-}
 
-.background-gradient-and-image {
-	z-index: 1;
-	background: @fallback;
 	/* background: url(./img/cnsmall2.gif) @background-position-x @background-position-y repeat; */
 	background: url(./img/cnsmall2.gif) top center repeat, -webkit-radial-gradient(top, #1589FF, #F62817);
 	width: 100%;
 	min-width: 1000px;
 	height: 100%;
-	min-height: 1000px; 
+	min-height: 1400px; 
 	float: left;
 	position: absolute;
 	display: block;
-/*	margin: 0 auto;
-	padding: 0 auto;*/
+	/* margin: 0 auto;
+	padding: 0 auto; */
 }
 @font-face{
 	font-family: ifc_los_banditos; src: url(losbanditos.ttf);
@@ -106,7 +101,7 @@ footer{
 	font-size: 1em;
 	color: #fff;
 	text-align: center;
-	padding: .5em 0em;
+	/* padding: .5em 0em; */
 }
 
 footer ul#menuFooter {
@@ -159,4 +154,7 @@ button{
     animation-duration: 3s;
     animation-iteration-count: infinite;
     z-index: 4;
+}
+#musicButton img{
+	width: 3vh;
 }
